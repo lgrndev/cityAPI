@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite + Vue</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+  </head>
+  <body class="flex justify-center items-center w-full h-screen bg-red-400">
+    <div class="flex flex-col justify-center items-center text-center bg-red-50 p-10 gap-8 rounded-2xl shadow-2xl w-96 h-96" id="block">
+      
+      <div>
+        <h1 class="text-2xl font-bold text-red-700">Rentre un code postal !</h1>
+      </div>
+      <div class="border-red-600 border-2 p-4 rounded-full shadow">
+        <input type="text" class=" bg-red-50 focus:outline-none" id="codepostal">
+      </div>
+      <div class="bg-red-500 text-white p-2 rounded-full shadow active:bg-red-600 cursor-pointer transition-all hover:opacity-70 active:opacity-100 hover:-translate-y-1 active:translate-y-1" id="button">Regarder</div>
+    </div>
+  </body>
+</html>
